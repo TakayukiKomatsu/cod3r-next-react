@@ -1,8 +1,8 @@
-function Titulo() {
+function Titulo({ titulo, subtitulo }) {
 	return (
 		<>
-			<h1>Titulo</h1>
-			<h2>subtítulo</h2>
+			<h1>{titulo}</h1>
+			<h2>{subtitulo}</h2>
 		</>
 	)
 }
