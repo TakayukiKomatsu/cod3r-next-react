@@ -14,3 +14,5 @@ function usandoTitulo() {
 		</>
 	)
 }
+
+export default usandoTitulo
