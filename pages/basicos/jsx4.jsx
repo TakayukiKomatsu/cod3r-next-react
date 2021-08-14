@@ -1,5 +1,23 @@
 function jsx4() {
-	return <div>Enter</div>
+	const subtitulo = 'Estou no Javascript'
+	return (
+		<div>
+			<h1>Integração JS e JSX</h1>
+			<h2>{subtitulo}</h2>
+
+			<h3>{3 * 3}</h3>
+			<h4>{Math.max(13, 39)}</h4>
+			<h4>{entre(9.6, 1, 10)}</h4>
+		</div>
+	)
 }
 
 export default jsx4
+
+function entre(valor, min, max) {
+	if (min >= valor && valor <= max) {
+		return 'Sim'
+	} else {
+		return 'Não'
+	}
+}
